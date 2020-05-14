@@ -6,7 +6,7 @@ import javax.persistence.Id;
 import java.io.Serializable;
 
 @Entity
-public class Previsoes implements Serializable {
+public class Previsao implements Serializable {
 
 	private static final long serialVersionUID = 1L;
 	@Id
@@ -24,10 +24,10 @@ public class Previsoes implements Serializable {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getdiaSemana() {
+	public String getDiaSemana() {
 		return diaSemana;
 	}
-	public void setNome(String diaSemana) {
+	public void setDiaSemana(String diaSemana) {
 		this.diaSemana = diaSemana;
 	}
 	public Double getTempMin() {
