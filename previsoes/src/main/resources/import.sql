@@ -8,3 +8,6 @@ insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao, da
 insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao, data, latitude, longitude) values (8, 'Quarta feira', 16.3, 17.8, 71, 'Chuva leve', '20/05/2020', 39.56, 16.12);
 
 insert into usuario(id, login, senha) values (1, 'admin', 'admin')
+insert into usuario(id, login, senha) values (2, 'jessica', 'achilles')
+insert into usuario(id, login, senha) values (3, 'victor', 'felice')
+insert into usuario(id, login, senha) values (4, 'jhonatan', 'oliveira')
