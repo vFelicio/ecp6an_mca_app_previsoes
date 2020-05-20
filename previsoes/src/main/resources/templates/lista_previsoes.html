@@ -10,7 +10,7 @@
 <body>
 <div class="panel panel-default" style="margin: 10px">
 <div class="panel-heading">
-<h1 class="panel-title">Previsões São Paulo</h1>
+<h1 class="panel-title">Previsão do tempo</h1>
 </div>
 <div class="panel-body">
 <form class="form-inline" method="POST" th:object="${previsao}" th:action="@{/previsoes}" style="margin:20px 0">
@@ -20,6 +20,9 @@
 <input type="text" class="form-control" placeholder="Temperatura Máxima" th:field="*{tempMax}"/>
 <input type="text" class="form-control" placeholder="Umidade" th:field="*{umidade}"/>
 <input type="text" class="form-control" placeholder="Descrição" th:field="*{descricao}"/>
+<input type="text" class="form-control" placeholder="Data" th:field="*{data}"/>
+<input type="text" class="form-control" placeholder="Latitude" th:field="*{latitude}"/>
+<input type="text" class="form-control" placeholder="Longitude" th:field="*{longitude}"/>
 <button type="submit" class="btn btn-primary">Adicionar</button>
 </div>
 </form>
@@ -31,6 +34,9 @@
 <th>Temperatura Máxima</th>
 <th>Umidade</th>
 <th>Descrição</th>
+<th>Data</th>
+<th>Latitude</th>
+<th>Longitude</th>
 </tr>
 </thead>
 <tbody>
@@ -40,6 +46,9 @@
 <td th:text="${previsao.tempMax}"></td>
 <td th:text="${previsao.umidade}"></td>
 <td th:text="${previsao.descricao}"></td>
+<td th:text="${previsao.data}"></td>
+<td th:text="${previsao.latitude}"></td>
+<td th:text="${previsao.longitude}"></td>
 </tr>
 </tbody>
 </table>
