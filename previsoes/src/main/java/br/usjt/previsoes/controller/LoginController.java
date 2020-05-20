@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import br.usjt.hellospringboot.model.Usuario;
-import br.usjt.hellospringboot.service.LoginService;
+import br.usjt.previsoes.model.Usuario;
+import br.usjt.previsoes.service.LoginService;
 
 @Controller
 public class LoginController {
