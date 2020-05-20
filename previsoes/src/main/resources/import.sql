@@ -5,3 +5,5 @@ insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao) va
 insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao) values (5, 'Segunda feira', 14, 25, 64, 'Parcialmente nublado');
 insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao) values (6, 'Terça feira', 13, 25, 63, 'Sol');
 insert into previsao (id, dia_semana, temp_min, temp_max, umidade, descricao) values (7, 'Quarta feira', 14, 26, 59, 'Sol');
+
+insert into usuario(id, login, senha) values (1, 'admin', 'admin')
